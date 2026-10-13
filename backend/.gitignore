@@ -1,0 +1,24 @@
+
+.env
+node_modules/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Node.js
+backend/node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/npm-debug.log*
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
